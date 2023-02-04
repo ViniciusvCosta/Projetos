@@ -1,0 +1,23 @@
+@charset "UTF8";
+
+body{
+   background-image: linear-gradient(to top, black,gray); 
+   background-attachment: fixed;
+}
+
+main{
+ 
+}
+ 
+header {
+    text-align: center;
+
+}
+header img{
+    margin-bottom: 50px;
+}
+
+header ul{
+    margin-top: 20px;
+    list-style:none ;
+}
