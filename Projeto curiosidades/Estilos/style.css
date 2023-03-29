@@ -14,42 +14,55 @@
 }
 
 body{
-  background-image: linear-gradient(to bottom, #0A1626,#B6C5F2);
+  background-image: linear-gradient(to bottom, var(--cor4),var(--cor2));
     
 }
 
+
+
+p{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none; 
+    color: white; 
+  
+}
+
 header{
-    background-color: black;
+    background: url;
+    height: 130px;
     color: white;
     text-align: center;
-    
+}
+header > h1{
+    margin-top: 20px;
 }
 menu{
-    background-color: gray;
+    background-color: var(--cor4);
     text-align: left;
- 
+    margin-top: 27px;
+
     
 }
 menu > ul > li {
     display: inline-block;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
+    list-style-type: none;
     color: white;
 }
-
-a{
-    text-decoration: none; 
-    color: white; 
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
 }
-
+menu > ul > li > a:hover{
+    background-color: var(--cor5);
+    transition-duration: .4s;
+}
 
 main{
     background-color: white;
-    width: 80vw;
-  
+    width: 75vw;
     margin: auto;
-   
     padding: 10px;
     text-indent: 2em;
     line-height: 1.5em;
@@ -58,4 +71,15 @@ main{
 footer{
     background-color: black;
     color: white;
+}
+footer > h1, ul > li, p{
+    margin-left: 20px;
+    list-style-type: none;
+}
+footer > ul > li{
+    line-height: 1.5em;
+}
+footer > ul > li > a:hover{
+    font-size: 19px;
+    transition-duration: .1s;
 }
