@@ -5,4 +5,4 @@
 
 <a href="https://viniciusvcosta.github.io/Projetos/Projeto%20curiosidades/TESTE1.html">Abrir o projeto curiosidades.</a>
 
-<a href="https://viniciusvcosta.github.io/Projetos/blob/main/Projeto%20link/link.html">Abrir o projeto curiosidades.</a>
+<a href="https://viniciusvcosta.github.io/Projetos/blob/main/Projeto%20link/link.html">Abrir o projeto Link.</a>
